@@ -8,11 +8,14 @@
 }
 
 .container div {
-    width: 6.25%;      /* 100% / 16 columns */
     aspect-ratio: 1 / 1;  /* keeps each square, well, square */
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 255, 255);
     border: 1px solid #000000;
     box-sizing: border-box;
 }
+
+
 
